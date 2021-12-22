@@ -138,7 +138,7 @@ a:active{
 .select_list option{
     color: black;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     .nav_bar{
         position:fixed;
         width: 100%;
@@ -290,7 +290,7 @@ a:active{
 
     #section_one{
         display: flex;
-        padding-top: 50px;
+        padding-top: 100px;
         flex-direction:column;
         width: 100%;
     }
@@ -304,16 +304,133 @@ a:active{
         flex-direction: column;
     }
     .paragraph p{
-        margin: 1em 0;
-        line-height: 1.75;
         font-weight: 50;
-        padding: 5px;
     }
     .three_divs{
         display: flex;
         width: 100%;
         flex-direction: column;
         color: #fff;
+    }
+    .for_patients{
+        background: #00ccb1;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .for_doctors{
+        background: #3d83df;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 10px;
+    }
+    .for_clinics{
+        background: #1b2734;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        /* margin: 10px; */
+    }
+    .three_divs img{
+        width: 30px;
+        height: 30px;
+    }
+    #section_one .three_divs h1{
+        font-size: 1em;
+        font-weight: 50;
+        color: #fff;
+        /* margin: 0.3em 0; */
+    }
+    .select_list select{
+            background: transparent;
+            border: 0;
+            border-radius: 0;
+            padding: 0 2em 0 0;
+            text-decoration: underline;
+            cursor: pointer;
+            color: #fff;
+            font-size: 19.2px;
+    }
+    
+    
+}
+
+/* @media :: phone */
+@media screen and (max-width: 480px) {
+    body{
+        font-weight: 200;
+        font-family: Roboto,Arial,sans-serif;
+        color: #747474;
+        display: flex;
+        flex-direction: column;
+    }
+    h1,h2 {
+        font-family: Work Sans,Arial,sans-serif;
+    }
+    p {
+        /* margin: 10px; */
+        display: block;
+    }
+    .nav_bar{
+        position:fixed;
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        background-color: #fff;
+    }
+    .logo_group{
+        width: 150px;
+        height: 20px;
+        margin-left:10px;
+    }
+    .logo_group img{
+        width: 100%;
+        height: 100%;
+    }
+    .nav_bar ul{
+        margin-right: 5px;
+        display: flex;
+        justify-content: end;
+    }
+    .nav_bar ul li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    #section_one{
+        display: flex;
+        padding-top: 100px;
+        flex-direction:column;
+        width: 100%;
+    }
+    #section_one h1{
+        font-size: 1rem;
+        color: #00b39b;
+    }
+    .paragraph{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0%;
+    }
+    .paragraph p{
+        line-height: 1.25;
+        font-weight: 20;
+        padding: 5px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .three_divs{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        color: #fff;
+        margin-top: 0%;
     }
     .for_patients{
         background: #00ccb1;
