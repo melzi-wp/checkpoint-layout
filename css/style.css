@@ -434,26 +434,25 @@ a:active{
     }
     .for_patients{
         background: #00ccb1;
-        border-radius: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 80%;
+        width: 100%;
     }
     .for_doctors{
         background: #3d83df;
-        border-radius: 10px;
+        /* border-radius: 10px; */
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         margin: 10px;
     }
     .for_clinics{
         background: #1b2734;
-        border-radius: 10px;
+        /* border-radius: 10px; */
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         margin: 10px;
     }
     .three_divs img{
